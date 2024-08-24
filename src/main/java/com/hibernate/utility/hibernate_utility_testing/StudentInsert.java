@@ -14,7 +14,7 @@ public class StudentInsert {
 		SessionFactory sessionFactory = Hibernate6Utility.getSessionFactory();
 		Session session = sessionFactory.openSession();
 
-		Transaction transaction =  session.beginTransaction();
+		Transaction  transaction =  session.beginTransaction();
 		Student student = new Student();
 		student.setSno(1);
 		student.setSname("HariOm");
