@@ -30,4 +30,11 @@ public class Student {
 		this.smarks = smarks;
 	}
 
+	@Override
+	public String toString() {
+		return "Student [sno=" + sno + ", sname=" + sname + ", smarks=" + smarks + "]";
+	}
+	
+	
+
 }
